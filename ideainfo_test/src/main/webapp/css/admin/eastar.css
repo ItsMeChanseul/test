@@ -204,7 +204,7 @@
 	display:block; 
 	width:16px; 
 	height:16px; 
-	background: url(../../images/agent/check_all.png) no-repeat left top; 
+	background: url(../../../images/admin/agent/check_all.png) no-repeat left top; 
 	background-size:16px;
 	margin-top:3px;
 	z-index:3;}
@@ -240,7 +240,7 @@
 	height:16px; 
 	background-size:16px !important;
 	margin-top:4px;
-	background: url(../../images/agent/radio_all.png) no-repeat left top; 
+	background: url(../../../images/admin/agent/radio_all.png) no-repeat left top; 
 	z-index:3;}
 .mini_radio label, .mini_r_table label  {float:left; 
 	margin-left:4px; 
@@ -387,7 +387,7 @@ select.select_style2 { height: 32px;
 	display:block; 
 	width:16px; 
 	height:16px; 
-	background: url(../../images/agent/check_all.png) no-repeat left top; 
+	background: url(../../../images/admin/agent/check_all.png) no-repeat left top; 
 	background-size:16px;
 	margin-top:3px;
 	z-index:3;}
@@ -425,7 +425,7 @@ select.select_style2 { height: 32px;
 	height:16px; 
 	background-size:16px !important;
 	margin-top:4px;
-	background: url(../../images/agent/radio_all.png) no-repeat left top; 
+	background: url(../../../images/admin/agent/radio_all.png) no-repeat left top; 
 	z-index:3;}
 .mini_radio label, .mini_r_table label  {float:left; 
 	margin-left:4px; 

@@ -9,8 +9,10 @@
 <link href="../css/user/font_style.css" rel="stylesheet" type="text/css">
 <link href="../css/user/common.css" rel="stylesheet" type="text/css">
 <link href="../css/user/slide.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <!-- js -->
 <script src="../js/jquery-3.3.1.js" type="text/javascript"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="../js/swiper_silde.js" type="text/javascript"></script>
 <script src="../js/main_slide.js" type="text/javascript"></script>
 </head>
@@ -36,7 +38,7 @@
 				</h1>
 				<!-- 로그인 -->
 				<div class="log">
-					<button class="btn_top_02 " type="button" title="로그인">로그인</button>
+					<button class="btn_top_02 " type="button" title="로그인" onclick="goLogin();">로그인</button>
 					<button class="btn_top_02 " type="button" title="회원가입">회원가입</button>
 				</div>
 				<!-- 로그인 -->
@@ -76,16 +78,16 @@
 				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<img src="../images/new/banner.png" alt="배너이미지">
+							<img src="../images/user/new/banner.png" alt="배너이미지">
 						</div>
 						<div class="swiper-slide">
-							<img src="../images/new/banner_02.png" alt="배너이미지">
+							<img src="../images/user/new/banner_02.png" alt="배너이미지">
 						</div>
 						<div class="swiper-slide">
-							<img src="../images/new/banner.png" alt="배너이미지">
+							<img src="../images/user/new/banner.png" alt="배너이미지">
 						</div>
 						<div class="swiper-slide">
-							<img src="../images/new/banner_02.png" alt="배너이미지">
+							<img src="../images/user/new/banner_02.png" alt="배너이미지">
 						</div>
 					</div>
 					<div class="controlBox">
@@ -186,19 +188,27 @@
 	</div>
 	<!-- //wrap -->
 	<!-- S: mainPop -->
-	<div class="mainPop" style="display: block;">
+	<!-- <div class="mainPop" style="display: block;">
 		<div class="mainLayer">
 			<a href="#none" class="closeLayer2" title="닫기">
 			<em class="hideTxt">닫기</em>
 			</a> 
-			<img src="../images/new/popup.png" alt="팝업 이미지">
+			<img src="../images/user/new/popup.png" alt="팝업 이미지">
 			<div class="closeBox">
 				<input type="checkbox" id="closeWindow"> 
 				<label for="closeWindow">오늘 하루 이창을 열지 않음</label>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- E: mainPop -->
+
+<script>
+
+function goLogin() {
+	window.location.href = "${pageContext.request.contextPath}/user/login/loginPage.do";
+}
+
+</script>
 
 </body>
 

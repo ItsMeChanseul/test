@@ -47,7 +47,7 @@ textarea { box-sizing: border-box; border: none; position: relative; z-index: 2;
 .check_all {position:relative; text-align:left; cursor:pointer; overflow:hidden;}
 .check_table {position:relative; text-align:left; cursor:pointer; overflow:hidden; top:4px; display:inline-block  }
 .check_all input.form-inputPop, .check_table input.form-inputPop {position:absolute; top:0; left:0; opacity:0; cursor:pointer; z-index:5; width:24px; height:24px}
-.check_all i, .check_table i {float:left; display:block; width:24px; height:24px; background: url(../images/check_all.png) no-repeat left top; z-index:3;}
+.check_all i, .check_table i {float:left; display:block; width:24px; height:24px; background: url(../../../images/user/check_all.png) no-repeat left top; z-index:3;}
 .check_all label, .check_table label  {float:left; margin-left:10px; cursor:pointer; font-size:15px; color:#434a5d;}
 .check_all input.form-inputPop:checked+i, .check_table input.form-inputPop:checked+i {background-position:left bottom;}
 .check_all input.form-inputPop:checked+i+label, .check_table input.form-inputPop:checked+i+label {color:#434a5d;}
@@ -55,7 +55,7 @@ textarea { box-sizing: border-box; border: none; position: relative; z-index: 2;
 .radio_all {position:relative; text-align:left; cursor:pointer; overflow:hidden;}
 .radio_table {position:relative; text-align:left; cursor:pointer; overflow:hidden; top:4px; display:inline-block  }
 .radio_all input.form-inputPop1, .radio_table input.form-inputPop1 {position:absolute; top:0; left:0; opacity:0; cursor:pointer; z-index:5; width:24px; height:24px}
-.radio_all i, .radio_table i {float:left; display:block; width:24px; height:24px; background: url(../images/radio_all.png) no-repeat left top; z-index:3;}
+.radio_all i, .radio_table i {float:left; display:block; width:24px; height:24px; background: url(../../../images/user/radio_all.png) no-repeat left top; z-index:3;}
 .radio_all label, .radio_table label  {float:left; margin-left:10px; cursor:pointer; font-size:15px; color:#434a5d;}
 .radio_all input.form-inputPop1:checked+i, .radio_table input.form-inputPop1:checked+i {background-position:left bottom;}
 .radio_all input.form-inputPop1:checked+i+label, .radio_table input.form-inputPop1:checked+i+label {color:#434a5d;}
@@ -63,7 +63,7 @@ textarea { box-sizing: border-box; border: none; position: relative; z-index: 2;
 
 input.inputText { height: 30px; padding-right: 10px; padding-left: 10px;  border-width: 1px; border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148); color: #666; /*font-size: 13px;*/ line-height: 28px; vertical-align: middle; }
 select.select_style { height: 32px; padding:5px 10px;  border-width: 1px; border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148); color: #666; font-size: 13px; line-height: 28px; vertical-align: top  ; }
-input.calendar {/*background: #FFF url(../images/btn_calendar.png) left no-repeat;*/ border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px;height:30px; color: #666; font-size:13px; vertical-align:top;   line-height:28px}
+input.calendar {/*background: #FFF url(../../../images/user/btn_calendar.png) left no-repeat;*/ border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px;height:30px; color: #666; font-size:13px; vertical-align:top;   line-height:28px}
 
 .btnWrap { display: block; position: relative; margin-top: 30px; text-align: right; }
 .alignC {text-align: center!important;}
@@ -76,7 +76,7 @@ input.calendar {/*background: #FFF url(../images/btn_calendar.png) left no-repea
 /* E-agency main 20180511 */
 .btnType01_4 { display: inline-block; overflow: visible; height: 32px; padding: 0 15px; color: #434a5d; font-size: 14px; font-weight:700; text-align: center; line-height: 28px; background-color: #FFF; cursor: pointer; vertical-align: middle; margin-left: 4px; border:1px solid #CCC }
 
-.btnType01_5 { display: inline-block; overflow: visible; height: 32px; padding: 0 15px 0 32px; color: #FFF; font-size: 14px; font-weight:700; text-align: center; line-height: 28px; background: #2d416b url(../images/go_btn.png)  10px no-repeat; cursor: pointer; vertical-align: middle;  border:1px solid #2d416b }
+.btnType01_5 { display: inline-block; overflow: visible; height: 32px; padding: 0 15px 0 32px; color: #FFF; font-size: 14px; font-weight:700; text-align: center; line-height: 28px; background: #2d416b url(../../../images/user/go_btn.png)  10px no-repeat; cursor: pointer; vertical-align: middle;  border:1px solid #2d416b }
 
 .btnType02_1 { display: inline-block; overflow: visible; height: 50px; padding: 0 25px; font-size: 16px; font-weight:700; text-align: center; line-height: 28px; cursor: pointer; vertical-align: middle; margin-left: 8px; border: 1px solid #b0282a; color: #fff; background-color: #b0282a; }
 .btnType02_2 { display: inline-block; overflow: visible; height: 50px; padding: 0 25px; font-size: 16px; font-weight:700; text-align: center; line-height: 28px; cursor: pointer; vertical-align: middle; margin-left: 8px; border: 1px solid #909090; color: #fff; background-color: #909090; }
@@ -93,7 +93,7 @@ a.btn_T0001{display:inline-block;width: auto; margin: 0 0 0 3px; font-size:14px;
 a.btn_T0002{display:inline-block;width: auto; margin: 0 0 0 3px; font-size:14px; font-weight:700; line-height:24px;border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #909090; border-right:1px solid #909090; text-align:center; color:#FFF !important; background-color:#909090;  padding:4px 15px 4px 15px;}
 a.btn_T0003{display:inline-block;width: auto; margin: 0 0 0 3px; font-size:14px; font-weight:700; line-height:24px;border-top:1px solid #b0282a; border-left:1px solid #b0282a; border-bottom:1px solid #b0282a; border-right:1px solid #b0282a; text-align:center; color:#FFF !important; background-color:#b0282a;  padding:4px 15px 4px 15px;}
 a.btn_T0004{display:inline-block;width: auto; margin: 0 0 0 3px; font-size:14px; font-weight:700; line-height:24px;border-top:1px solid #434a5d; border-left:1px solid #434a5d; border-bottom:1px solid #434a5d; border-right:1px solid #434a5d; text-align:center; color:#FFF !important; background-color:#434a5d;  padding:4px 15px 4px 15px;}
-a.btn_S0002{display:inline-block;width:20px; height:20px; margin: 0 5px 0 3px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_search.png) center no-repeat; position:relative; top:3px; padding:4px 10px ;}
+a.btn_S0002{display:inline-block;width:20px; height:20px; margin: 0 5px 0 3px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/user/btn_search.png) center no-repeat; position:relative; top:3px; padding:4px 10px ;}
 
 .bt_tb_01 { background-color:#F90; color:#FFF; padding:5px 15px; font-size:12px !important; line-height:18px; border-radius:0}
 .bt_tb_02 { background-color:#b0282a; color:#FFF; padding:5px 15px; font-size:12px !important; line-height:18px; border-radius:0}
@@ -106,9 +106,9 @@ a.btn_S0002{display:inline-block;width:20px; height:20px; margin: 0 5px 0 3px; b
 .log_cancel_Btn { width: 50%; height: 50px; background: #434a5d; font-size:18px; color: #fff !important; font-weight:700; text-align: center; display: inline-block; line-height: 50px; cursor: pointer; }
 
 /* 수정 20180414 */
-a.m_btn_S0001{float:left; display:block;  width:80px; height:40px; border:1px solid #FFF; background:#d12149 url(../images/btn_ar.png) 80px 26px no-repeat; padding:4px 15px ; font-size:12px; line-height:38px; color:#FFF; font-weight:700; margin-top:px;margin-right:-1px; margin-bottom:-1px;}
+a.m_btn_S0001{float:left; display:block;  width:80px; height:40px; border:1px solid #FFF; background:#d12149 url(../../../images/user/btn_ar.png) 80px 26px no-repeat; padding:4px 15px ; font-size:12px; line-height:38px; color:#FFF; font-weight:700; margin-top:px;margin-right:-1px; margin-bottom:-1px;}
 /*
-a.m_btn_S0001{display:block;width:160px; height:28px; border:1px solid #FFF; background:#d12149 url(../images/btn_ar.png)  150px 15px no-repeat;   padding:4px 15px ; font-size:15px; line-height:28px; color:#FFF; font-weight:700; margin-top:5px}
+a.m_btn_S0001{display:block;width:160px; height:28px; border:1px solid #FFF; background:#d12149 url(../../../images/user/btn_ar.png)  150px 15px no-repeat;   padding:4px 15px ; font-size:15px; line-height:28px; color:#FFF; font-weight:700; margin-top:5px}
 */
 
 

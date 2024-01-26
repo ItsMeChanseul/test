@@ -181,10 +181,10 @@ a:hover {color:#666;text-decoration:none;}
 .paging a{display:inline-block; color:#888888; vertical-align:top; line-height:30px; !important}
 .paging .pgn_box{padding:0 12px; vertical-align:top; line-height:30px; background:#FFF; color:#4d4d4d; border:1px solid #e0e0e0; margin-left:1px; margin-right:1px;}
 .paging .btn{display:inline-block; padding:0;  width:30px; height:30px; text-indent:-9999px;}
-.paging .btn.first{background: url(../images/btn_first.png) no-repeat 0 0}
-.paging .btn.prev{background: url(../images/btn_prev.png) no-repeat 0 0}
-.paging .btn.next{background: url(../images/btn_next.png)  no-repeat 0 0; margin-left:3px}
-.paging .btn.end{background: url(../images/btn_end.png)  no-repeat 0 0}
+.paging .btn.first{background: url(../../../images/admin/btn_first.png) no-repeat 0 0}
+.paging .btn.prev{background: url(../../../images/admin/btn_prev.png) no-repeat 0 0}
+.paging .btn.next{background: url(../../../images/admin/btn_next.png)  no-repeat 0 0; margin-left:3px}
+.paging .btn.end{background: url(../../../images/admin/btn_end.png)  no-repeat 0 0}
 .paging .pgn_box:hover, .paging .pgn_box:focus{text-decoration:none; color:#233688; background:#FDE2DF ;}
 .clearB{display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important; }
 
@@ -216,8 +216,8 @@ a:hover {color:#666;text-decoration:none;}
 
 
 input.basic1 {background: #FFF;	border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px;height:26px;color: rgb(38, 38, 38); font-size:12px; vertical-align:top; font-style:normal;  line-height:22px}
-input.calendar {/*background: #FFF url(../images/btn_calendar.png) left no-repeat;*/ border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px 0 5px;height:26px;color: rgb(38, 38, 38); font-size:12px; vertical-align:top; font-style:normal;  line-height:22px}
-input.search {background: #FFF url(../images/btn_search.png) 5px 5px no-repeat; border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px 0 30px;height:26px;color: rgb(38, 38, 38); font-size:12px; vertical-align:top;  font-style:normal;  line-height:22px}
+input.calendar {/*background: #FFF url(../../../images/admin/btn_calendar.png) left no-repeat;*/ border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px 0 5px;height:26px;color: rgb(38, 38, 38); font-size:12px; vertical-align:top; font-style:normal;  line-height:22px}
+input.search {background: #FFF url(../../../images/admin/btn_search.png) 5px 5px no-repeat; border-width: 1px;	border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);	margin: 0px;	padding: 0px 5px 0 30px;height:26px;color: rgb(38, 38, 38); font-size:12px; vertical-align:top;  font-style:normal;  line-height:22px}
 .inp_select_tc {padding: 3px; height:28px;border-width: 1px;border-style: solid;	border-color: rgb(137, 143, 148) rgb(179, 187, 193) rgb(179, 187, 193) rgb(137, 143, 148);font-size: 12px; vertical-align: top; line-height:28px; color:#333; }
 .in_off { background-color:#f0f3f5 !important}
 
@@ -251,12 +251,12 @@ label {  font-family: 돋움, Dotum, Helvetica, "Apple SD Gothic Neo", sans-seri
 .bt_Tx_ny { display: inline-block; background-color: #ECECEC; border:1px solid #DFDFDF; color:#333; margin:0 2px; padding: 3px 7px 2px;  font-size:12px !important; font-weight:bolder; line-height:18px;  } /* 국적 */
 
 a.btn_T0001{display:inline-block;width: auto; margin: 0 0 0 4px; font-size:12px; line-height:14px;border:1px solid #DADADA; text-align:center; color:#333 !important; background-color:#FFF;  padding:4px 10px 4px 10px;} 
-a.btn_T0002{display:inline-block;width:20px; height:20px; margin: 0 5px 0 3px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_search.png) center no-repeat; position:relative; top:3px; padding:4px 10px ;}
-a.btn_T0003{display:inline-block;width:20px; height:16px; margin: 0 2px 0 2px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_delete.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
-a.btn_T0004{display:inline-block;width:20px; height:16px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_list_up.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
-a.btn_T0005{display:inline-block;width:20px; height:16px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_list_do.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
-a.btn_T0006{display:inline-block;width:20px; height:30px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_right.png) center no-repeat;  padding:4px 10px ;}
-a.btn_T0007{display:inline-block;width:20px; height:30px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../images/btn_left.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
+a.btn_T0002{display:inline-block;width:20px; height:20px; margin: 0 5px 0 3px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_search.png) center no-repeat; position:relative; top:3px; padding:4px 10px ;}
+a.btn_T0003{display:inline-block;width:20px; height:16px; margin: 0 2px 0 2px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_delete.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
+a.btn_T0004{display:inline-block;width:20px; height:16px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_list_up.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
+a.btn_T0005{display:inline-block;width:20px; height:16px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_list_do.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
+a.btn_T0006{display:inline-block;width:20px; height:30px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_right.png) center no-repeat;  padding:4px 10px ;}
+a.btn_T0007{display:inline-block;width:20px; height:30px; margin: 0 1px 0 1px; border-top:1px solid #a7a7a7; border-left:1px solid #a7a7a7; border-bottom:1px solid #a3a3a3; border-right:1px solid #a3a3a3;  background: #FFF url(../../../images/admin/btn_left.png) center no-repeat;   position:relative; top:2px; padding:4px 10px ;}
 
 /* 그리드 추가삭제버튼 신규추가 */
 .btnGrid_001 { display: inline-block; overflow: visible; height: 24px; padding: 0 10px; color: #434a5d; font-size: 12px; font-weight:700; text-align: center; line-height: 24px; background-color: #fff; cursor: pointer; 	vertical-align: middle;  border:1px solid #CCC; }

@@ -8,7 +8,10 @@
 <link href="../css/admin/component.css" rel="stylesheet" type="text/css" media="all">
 <link href="../css/admin/font_style.css" rel="stylesheet" type="text/css" media="all">
 <link href="../css/admin/main_css.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
 <script type="text/javascript"></script>
 <title>이데아인포 프로젝트</title>
@@ -33,7 +36,7 @@
 						<div class="info_btn_box">
 							<ul>
 								<li><a title="회원가입" class="tab_Btn" href="#none">회원가입</a></li>
-								<li><a title="로그인" class="tab_Btn " href="#none">로그인</a></li>
+								<li><a title="로그인" class="tab_Btn " href="/admin/login/loginPage.do">로그인</a></li>
 							</ul>
 						</div>
 					</div>
@@ -138,7 +141,7 @@
 			<!-- loc_area -->
 			<div class="loc_area">
 				<div class="location">
-					<span><img src="../images/location_home_icon.png" width="13"
+					<span><img src="../images/admin/location_home_icon.png" width="13"
 						height="13" alt="home"></span> <span>게시판관리</span> <span class="emp">공지사항</span>
 				</div>
 			</div>
