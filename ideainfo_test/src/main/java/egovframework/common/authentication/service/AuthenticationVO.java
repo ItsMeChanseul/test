@@ -11,7 +11,9 @@ public class AuthenticationVO {
 	private String loginPw;
 	private String userBirthDate;
 	private String userEmail;
-	private String userAdress;
+	private String userAddress;
+	private String userAddressDtl;
+	private String userPhoneNum;
 	private boolean isAdminFlag;
 	private String regDate;
 	private String LastModDate;

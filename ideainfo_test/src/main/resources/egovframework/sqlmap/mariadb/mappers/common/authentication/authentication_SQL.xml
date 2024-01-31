@@ -14,5 +14,18 @@
 	    AND 
 	    	login_pw = #{loginPw}
 	</select>
+	
+	<select id="selectCntId" resultType="int">
+	
+		SELECT COUNT(*) AS count
+	    FROM 
+	    	user_info_tb
+	    WHERE 
+	    	login_id = #{inputId}
+	</select>
+	
+	<insert id="insertUserInfo">
+	
+	</insert>
 
 </mapper>

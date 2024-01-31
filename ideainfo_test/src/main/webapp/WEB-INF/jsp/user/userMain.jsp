@@ -39,7 +39,7 @@
 				<!-- 로그인 -->
 				<div class="log">
 					<button class="btn_top_02 " type="button" title="로그인" onclick="goLogin();">로그인</button>
-					<button class="btn_top_02 " type="button" title="회원가입">회원가입</button>
+					<button class="btn_top_02 " type="button" title="회원가입" onclick="goSingUp();">회원가입</button>
 				</div>
 				<!-- 로그인 -->
 				<!-- 로그아웃 -->
@@ -206,6 +206,9 @@
 
 function goLogin() {
 	window.location.href = "${pageContext.request.contextPath}/user/login/loginPage.do";
+}
+function goSingUp() {
+	window.location.href = "${pageContext.request.contextPath}/user/login/signUpPage.do";
 }
 
 </script>
