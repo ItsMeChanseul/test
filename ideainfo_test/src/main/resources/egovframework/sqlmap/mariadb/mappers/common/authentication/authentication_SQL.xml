@@ -25,7 +25,26 @@
 	</select>
 	
 	<insert id="insertUserInfo">
-	
+		INSERT INTO 
+			USER_INFO_TB 
+			(LOGIN_ID, 
+			LOGIN_PW, 
+			USER_NAME,
+			USER_BIRTH_DATE, 
+			USER_PHONE_NUM,
+			USER_EMAIL,
+			USER_ADDRESS,
+			USER_ADDRESS_DTL)
+		VALUES 
+			(#{loginId}, 
+			#{loginPw}, 
+			#{userName}, 
+			#{userBirthDate}, 
+			#{userPhoneNum}, 
+			#{userEmail}, 
+			#{userAddress}, 
+			#{userAddressDtl})
+		
 	</insert>
 
 </mapper>
